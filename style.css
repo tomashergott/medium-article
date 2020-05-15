@@ -1,0 +1,107 @@
+body {
+  color: #494949;
+  font-size: 28px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: arial;
+  margin: 0;
+}
+h1, h2 {
+  font-family: courier, monospace;
+  font-weight: bold;
+}
+h2 {
+  color: red;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: red;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: 'courier', monospace;
+  font-weight: lighter;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+.page-link {
+  background-image: linear-gradient(to bottom, #00A1AB, #00263b);
+  color: yellow;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.page-link:hover {
+  background-image: linear-gradient(to bottom, rgba(10, 10, 10, 1), rgba(1, 1, 1, 1));}
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
+
+.card {
+  background-color: white;
+  width: 700px;
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 32px 0px;
+  text-align: center;
+}
+
+.social-icon {
+  color: blue;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+}
